@@ -1,0 +1,187 @@
+/*******************************************************
+* Página de estilos referente ao CHEKPOINT 03 - TURMA 1 - EM GRUPO
+* Laiane Barbalho
+* Juliana Novais
+* Kleber Fernandes
+*********************************************************/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none
+}
+
+.banner-home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin-top: 70px;
+  background-image: url("../img/background.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-home:before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display:block;
+  content:"";
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,.7);
+}
+
+.banner-home .row,
+.banner-home .container {
+  height: 80vh;
+}
+
+.banner-home .row {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.scroll {
+  scroll-behavior: smooth;
+}
+
+.h1 {
+  font-weight: 900;
+  z-index: 10;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 500;
+  width: 100%;
+}
+
+.card {
+  margin-bottom: 16px;
+  
+}
+
+.card-img-top {
+  background-position: center; 
+  background-size: cover; 
+  height: 200px;
+}
+
+.card-body {
+  height: 100%;
+  padding: 10px;
+  
+}
+
+
+
+.copyright {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#avaliacao{
+  padding-bottom: 16px;
+}
+
+#tituloJoker{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 75px; 
+}
+
+#infoJoker{
+  display: inline-block;
+  width: 100%;
+}
+
+#left {
+    width: 25%;
+    display: inline-block;
+  
+}
+
+#left .infoTitulo{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 4px;
+  
+}
+#left .infoDet {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: rgba(0, 133, 255, 0.75);
+  margin-bottom: 4px;
+}
+
+#right {
+    width: 75%;
+    display: inline-block;
+}
+
+#right .infoTitulo{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 4px;
+  
+}
+
+#right .infoDet {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: rgba(0, 133, 255, 0.75);
+  margin-bottom: 4px;
+}
+
+.container-video {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  
+}
+
+#videoJoker {
+  border-radius:6px;
+}
+
+footer {
+  padding: 7em 0; 
+}
+
+.footer {
+  background: #171717; 
+}
+
+.footer p {
+  color: rgba(255, 255, 255, 0.3); 
+}
+.developer:hover {
+  color: #a5a1a1;
+}
+
+.icon {
+  margin: 16px;
+}
+
+.icon:hover {
+  background-color: rgba(226, 242, 248, 0.1);
+}
+

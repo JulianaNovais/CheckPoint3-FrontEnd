@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>DH Flix | Checkpoint03</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Montserrat:ital,wght@0,300;0,700;0,800;1,500;1,700;1,800&family=Playfair+Display:ital@0;1&family=Roboto:wght@300;500;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand " href="https://www.digitalhouse.com/br" target="_blank">
+                    <img src="./img/logo_dh.png" alt="Logo DH" width="150">
+                </a>
+                <button class="btn btn-danger d-block d-md-none text-align text-light" data-bs-toggle="modal"
+                    data-bs-target="#myModal">Login</button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#itens">Itens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre nós</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="btn btn-danger text-align text-light d-none d-md-block" data-bs-toggle="modal"
+                    data-bs-target="#myModal">Login</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- secao -->
+        <section id="home" class="banner-home scroll">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1 class="h1 text-danger">DH Flix</h1>
+                        <p class="banner-text text-light">Confira a maior coletânea de Filmes que a Digital House tem a
+                            te oferecer</p>
+                        <button type="button" class="btn btn-lg btn-outline-success px-3">Explorar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /secao -->
+
+        <section id="itens" class="pt-5 pb-5 scroll">
+            <h2 class="display-5  text-center " id="itens"><b>Itens</b></h2>
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 ml-lg-4">
+                        <div class="card">
+                            <img src="./img/thumbnail_theJoker.jpg" class="card-img-top" alt="joker">
+                            <div class="card-body mb-4">
+                                <h3 class="card-title">Joker</h3>
+                                <h6>Classificação: 16 anos</h6>
+                                <p class="card-text">Em Coringa, Arthur Fleck (Joaquin Phoenix) trabalha como palhaço
+                                    para uma agência de talentos.Após ser demitido, Fleck reage mal à gozação de três
+                                    homens em pleno metrô e os mata.</p>
+                                <div class="d-grid gap-2">
+                                    <a class="btn  btn-success" type="button" href="./joker.html">
+                                        Abrir
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 ml-lg-4">
+                        <div class="card">
+                            <img src="./img/thumbnail_1917.jpg" class="card-img-top" alt="1917 o filme">
+                            <div class="card-body mb-4">
+                                <h3 class="card-title">1917</h3>
+                                <h6>Classificação: 14 anos</h6>
+                                <p class="card-text">Em 1917, os cabos Schofield (George MacKay) e Blake (Dean-Charles
+                                    Chapman) são jovens soldados britânicos durante a Primeira Guerra Mundial que podem
+                                    salvar 1600 colegas de batalhão.</p>
+                                <div class="d-grid gap-2">
+                                    <a class="btn  btn-success" type="button" href="./joker.html">
+                                        Abrir
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 ml-lg-4">
+                        <div class="card">
+                            <img src="./img/thumbnail_captain_marvel.jpg" class="card-img-top" alt="capitan">
+                            <div class="card-body mb-4">
+                                <h3 class="card-title">Capitã Marvel</h3>
+                                <h6>Classificação: 12 anos</h6>
+                                <p class="card-text">Em Capitã Marvel, Carol Danvers (Brie Larson) é uma ex-agente da
+                                    Força Aérea norte-americana, que, sem se lembrar de sua vida na Terra, é recrutada
+                                    pelos Kree para fazer parte de seu exército de elite.</p>
+                                <div class="d-grid gap-2">
+                                    <a class="btn  btn-success" type="button" href="./joker.html">
+                                        Abrir
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 ml-lg-4">
+                        <div class="card">
+                            <img src="./img/thumbnail_dora.jpg" class="card-img-top" alt="dora">
+                            <div class="card-body mb-4">
+                                <h3 class="card-title">Dora e a cidade perdida</h3>
+                                <h6>Classificação: 10 anos</h6>
+                                <p class="card-text">Dora é uma adolescente que além de ter que lidar com os dilemas do
+                                    ensino médio, precisa também encarar os perigos de uma grande aventura ao lado de
+                                    seus amigos, como o macaco Boots e seu primo Diego.
+                                </p>
+                                <div class="d-grid gap-2">
+                                    <a class="btn  btn-success" type="button" href="./joker.html">
+                                        Abrir
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 ml-lg-4">
+                        <div class="card">
+                            <img src="./img/thumbnail_thor.jpg" class="card-img-top" alt="thor">
+                            <div class="card-body mb-4">
+                                <h3 class="card-title">Thor</h3>
+                                <h6> Classificação: 10 anos</h6>
+                                <p class="card-text">Mundos colidem quando um poderoso inimigo antigo ameaça mergulhar o
+                                    cosmos na escuridão eterna. Thor (Chris Hemsworth) embarca em uma perigosa jornada
+                                    pessoal para salvar a Terra e Asgard da destruição.</p>
+                                <div class="d-grid gap-2">
+                                    <a class="btn  btn-success" type="button" href="./joker.html">
+                                        Abrir
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 ml-lg-4">
+                        <div class="card">
+                            <img src="./img/thumbnail_jumanji.jpeg" class="card-img-top" alt="jumanji">
+                            <div class="card-body mb-4">
+                                <h3 class="card-title">Jumanji</h3>
+                                <h6>Classificação: 12 anos</h6>
+                                <p class="card-text">Vinte anos após os eventos do primeiro filme, o jogo de
+                                    tabuleiro evoluiu para um vídeo-game e enquanto limpam o porão da escola por
+                                    detenção, quatro adolescentes são transportados para a mesma selva.</p>
+                                <div class="d-grid gap-2">
+                                    <a class="btn  btn-success" type="button" href="./joker.html">
+                                        Abrir
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <!-- footer -->
+
+    <footer id="sobre" class="footer scroll">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center justify-content-center flex-column">
+                        <h5 class="text-light">Juliana Novais</h5>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a class="icon" href="https://www.linkedin.com/in/juliana-novais-17ab50223/"
+                                target="_blank">
+                                <img src="img/Linkedin.svg" alt="perfil-linkedin">
+                            </a>
+                            <a class="icon" href="https://github.com/JulianaNovais" target="_blank" class="">
+                                <img src="img/Github.svg" class="" alt="perfil-github">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center justify-content-center flex-column">
+                        <h5 class="text-light">Kleber Fernandes</h5>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a class="icon" href="https://www.linkedin.com/in/kleber-f-31530425/" target="_blank">
+                                <img src="img/Linkedin.svg" alt="perfil-linkedin">
+                            </a>
+                            <a class="icon" href="https://github.com/Kleberfor" target="_blank" class="">
+                                <img src="img/Github.svg" class="" alt="perfil-github">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center justify-content-center flex-column">
+                        <h5 class="text-light">Laiane Barbalho</h5>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a class="icon" href="https://www.linkedin.com/in/laiane-barbalho-2a17aa33/"
+                                target="_blank">
+                                <img src="img/Linkedin.svg" alt="perfil-linkedin">
+                            </a>
+                            <a class="icon" href="https://github.com/laianebarbalho" target="_blank" class="">
+                                <img src="img/Github.svg" class="" alt="perfil-github">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12 text-center">
+                <p class="copyright">
+                    &copy; Checkpoint 03, desenvolvido em 2021.
+                </p>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+
+    <!-- modal -->
+
+    <div class="modal" tabindex="-1" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <a class="o_dh">
+                        <img src="./img/logo_dh.png" alt="Logo DH" width="150">
+                    </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Email:</label>
+                            <input type="email" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Senha:</label>
+                            <input type="password" class="form-control" id="message-text"></input>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-lg btn-success">Enviar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JQuery -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous">
+    </script>
+
+    <!-- JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+    ></script>
+</body>
+
+</html>
